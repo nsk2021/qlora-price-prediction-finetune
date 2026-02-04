@@ -2,7 +2,7 @@
 
 Fine-tune an open-source LLM with **QLoRA** to predict product prices from short descriptions, then evaluate against baselines using **MAE**.
 
-This project is structured for a portfolio repo:
+This project is structured:
 - Dataset loading
 - Prompt formatting
 - QLoRA training (4-bit quantization + LoRA adapters)
@@ -52,13 +52,3 @@ Notes:
    - `trainer.train()`
 4. To evaluate, run:
    - `evaluate_model(eval_ds, n=...)`
-
-## What to highlight (resume alignment)
-
-- Implemented **QLoRA fine-tuning** (4-bit + LoRA) for a regression-like NLP task.
-- Built an evaluation harness with **MAE** and baseline comparison.
-- Saved adapters for cheap reuse and reproducible inference.
-
-## License
-
-Choose a license (MIT is common for portfolios) and add `LICENSE`.
